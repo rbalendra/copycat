@@ -40,6 +40,11 @@
   font-size: 20px;
 }
 
+.notif-actions{
+  display: flex;
+  align-items: center;
+}
+
 .notif-actions a{
   text-decoration: none;
   color: grey;
