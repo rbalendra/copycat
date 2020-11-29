@@ -1,0 +1,47 @@
+.cards{
+  width: 600px;
+  margin:10 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-card{
+  display:flex;
+  border-radius: 8px;
+  width: 400px;
+  padding: 30px;
+  margin: 20;
+  background-color: white;
+  min-height: 5vh;
+  justify-content: space-between;
+  align-items: space-between;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+}
+.items-add{
+  border: 2px solid rgb(0, 184, 144);
+}
+
+.item-error{
+  border: 2px solid red;
+}
+
+.invite{
+  border: 2px solid rgb(8, 156, 255);
+
+}
+
+
+
+.single-card a{
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+
+.notif-actions a{
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
